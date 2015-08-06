@@ -63,7 +63,7 @@ echos () {
 
 if [ "$nodownload" == "0" ]; then
     echos "Starting to install Openvswitch with support for NSH"
-    git clone https://github.com/priteshk/ovs.git
+    git clone https://github.com/pritesh/ovs.git
     if [ $? -gt 0 ]; then
         endspin "ERROR:Cloning git repo failed."
         exit 1
